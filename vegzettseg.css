@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url('images/kek-hatter.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+}
+
+/* Fejléc */
+header {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  font-family: sans-serif;
+  color: white;
+  
+}
+
+/* Lábléc */
+footer {
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.2);
+}
+
+/* Középső ablakos elrendezés */
+.window-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px 20px;
+}
+
+/* Egy-egy ablak */
+.doc-window {
+  background-color: rgba(255, 255, 255, 0.85);
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.doc-window:hover {
+  transform: scale(1.03);
+}
