@@ -24,7 +24,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: url('images/kek-hatter.png'); /* a kép elérési útja */
+  background-image: url('images/kek-hatter.jpg'); /* a kép elérési útja */
   background-size: cover; /* kitölti a képernyőt */
   background-position: center;
   background-repeat: no-repeat;
@@ -51,7 +51,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: url('images/kek-hatter.png'); /* a kép elérési útja */
+  background-image: url('images/kek-hatter.jpg'); /* a kép elérési útja */
   background-size: cover; /* kitölti a képernyőt */
   background-position: center;
   background-repeat: no-repeat;
@@ -177,5 +177,6 @@ body {
 .doc-window:hover {
   transform: scale(1.03);
 }
+
 
 
