@@ -1,5 +1,5 @@
 header {
-  background-image: url('images/kek-hatter.png');
+  background-image: url('images/kek-hatter.jpg');
   background-size: cover;
   background-position: 30px center 24%;
   color: white;
@@ -177,6 +177,7 @@ body {
 .doc-window:hover {
   transform: scale(1.03);
 }
+
 
 
 
