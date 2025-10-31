@@ -139,7 +139,7 @@ body {
 
 .caption {
   margin-top: 0.5rem;
-  text-align: center;
+  text-align: left;
   font-weight: bold;
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
@@ -177,6 +177,7 @@ body {
 .doc-window:hover {
   transform: scale(1.03);
 }
+
 
 
 
